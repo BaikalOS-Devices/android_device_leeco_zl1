@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_zl1.mk
+    $(LOCAL_DIR)/baikalos_zl1.mk

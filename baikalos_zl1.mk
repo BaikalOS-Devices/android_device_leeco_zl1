@@ -31,10 +31,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Nitrogen stuff.
-$(call inherit-product, vendor/nitrogen/products/common.mk)
+# Inherit some common baikalos stuff.
+$(call inherit-product, vendor/baikalos/config/common_full_phone.mk)
 
-PRODUCT_NAME := nitrogen_zl1
+PRODUCT_NAME := baikalos_zl1
 PRODUCT_DEVICE := zl1
 PRODUCT_MANUFACTURER := LeEco
 PRODUCT_BRAND := LeEco
